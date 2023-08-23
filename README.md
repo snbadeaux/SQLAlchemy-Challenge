@@ -1,8 +1,10 @@
 # SQLAlchemy-Challenge<br>
 
+
 Instructions<br>
 
 Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii. To help with your trip planning, you decide to do a climate analysis about the area. The following sections outline the steps that you need to take to accomplish this task.<br>
+
 
 Part 1: Analyze and Explore the Climate Data<br>
 
@@ -13,6 +15,7 @@ In this section, you’ll use Python and SQLAlchemy to do a basic climate analys
 4.	Link Python to the database by creating a SQLAlchemy session.<br>
 5.	Perform a precipitation analysis and then a station analysis by completing the steps in the following two subsections.<br>
 
+
 Precipitation Analysis<br>
 
 1.	Find the most recent date in the dataset.<br>
@@ -22,6 +25,7 @@ Precipitation Analysis<br>
 5.	Sort the DataFrame values by "date".<br>
 6.	Plot the results by using the DataFrame plot method, as the following image shows:<br>
 7.	Use Pandas to print the summary statistics for the precipitation data.<br>
+
 
 Station Analysis<br>
 
@@ -35,6 +39,7 @@ o	Filter by the station that has the greatest number of observations.<br>
 o	Query the previous 12 months of TOBS data for that station.<br>
 o	Plot the results as a histogram with bins=12, as the following image shows:<br>
 5.	Close your session.<br>
+
 
 Part 2: Design Your Climate App<br>
 
