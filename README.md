@@ -1,9 +1,9 @@
-# SQLAlchemy-Challenge<br>
+# SQLAlchemy-Challenge<br><br>
 
 
 Instructions<br>
 
-Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii. To help with your trip planning, you decide to do a climate analysis about the area. The following sections outline the steps that you need to take to accomplish this task.<br>
+Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii. To help with your trip planning, you decide to do a climate analysis about the area. The following sections outline the steps that you need to take to accomplish this task.<br><br>
 
 
 Part 1: Analyze and Explore the Climate Data<br>
@@ -13,7 +13,7 @@ In this section, you’ll use Python and SQLAlchemy to do a basic climate analys
 2.	Use the SQLAlchemy create_engine() function to connect to your SQLite database.<br>
 3.	Use the SQLAlchemy automap_base() function to reflect your tables into classes, and then save references to the classes named station and measurement.<br>
 4.	Link Python to the database by creating a SQLAlchemy session.<br>
-5.	Perform a precipitation analysis and then a station analysis by completing the steps in the following two subsections.<br>
+5.	Perform a precipitation analysis and then a station analysis by completing the steps in the following two subsections.<br><br>
 
 
 Precipitation Analysis<br>
@@ -24,7 +24,7 @@ Precipitation Analysis<br>
 4.	Load the query results into a Pandas DataFrame. Explicitly set the column names.<br>
 5.	Sort the DataFrame values by "date".<br>
 6.	Plot the results by using the DataFrame plot method, as the following image shows:<br>
-7.	Use Pandas to print the summary statistics for the precipitation data.<br>
+7.	Use Pandas to print the summary statistics for the precipitation data.<br><br>
 
 
 Station Analysis<br>
@@ -38,7 +38,7 @@ o	Answer the following question: which station id has the greatest number of obs
 o	Filter by the station that has the greatest number of observations.<br>
 o	Query the previous 12 months of TOBS data for that station.<br>
 o	Plot the results as a histogram with bins=12, as the following image shows:<br>
-5.	Close your session.<br>
+5.	Close your session.<br><br>
 
 
 Part 2: Design Your Climate App<br>
